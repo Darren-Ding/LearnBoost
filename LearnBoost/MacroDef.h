@@ -13,7 +13,8 @@
 
 // Marcos related to Chapter 6: Test
 #define TEST_ASSERT_BASIC 0
-#define TEST_ASSERT_DISABLE 1
+#define TEST_ASSERT_DISABLE 0
 #define TEST_ASSERT_EXTENSION 0
+#define TEST_STATIC_ASSERT 1
 
 #endif /* MacroDef_h */

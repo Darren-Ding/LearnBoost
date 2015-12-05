@@ -11,6 +11,7 @@
 		D82B7B731C13466000CCDC22 /* AssertBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82B7B721C13466000CCDC22 /* AssertBasic.cpp */; };
 		D82B7B751C13469200CCDC22 /* AssertDisable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82B7B741C13469200CCDC22 /* AssertDisable.cpp */; };
 		D82B7B771C1346BB00CCDC22 /* AssertExtension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82B7B761C1346BB00CCDC22 /* AssertExtension.cpp */; };
+		D8C267DA1C1366E4004531CE /* StaticAssert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8C267D91C1366E4004531CE /* StaticAssert.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		D82B7B721C13466000CCDC22 /* AssertBasic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AssertBasic.cpp; sourceTree = "<group>"; };
 		D82B7B741C13469200CCDC22 /* AssertDisable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AssertDisable.cpp; sourceTree = "<group>"; };
 		D82B7B761C1346BB00CCDC22 /* AssertExtension.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AssertExtension.cpp; sourceTree = "<group>"; };
+		D8C267D91C1366E4004531CE /* StaticAssert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StaticAssert.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				D82B7B721C13466000CCDC22 /* AssertBasic.cpp */,
 				D82B7B741C13469200CCDC22 /* AssertDisable.cpp */,
 				D82B7B761C1346BB00CCDC22 /* AssertExtension.cpp */,
+				D8C267D91C1366E4004531CE /* StaticAssert.cpp */,
 			);
 			name = Chapter_6_Test;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C267DA1C1366E4004531CE /* StaticAssert.cpp in Sources */,
 				D82B7B731C13466000CCDC22 /* AssertBasic.cpp in Sources */,
 				D82B7B751C13469200CCDC22 /* AssertDisable.cpp in Sources */,
 				D82B7B6A1C1343D300CCDC22 /* main.cpp in Sources */,
@@ -263,6 +267,7 @@
 				D82B7B6F1C1343D300CCDC22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
