@@ -6,6 +6,10 @@
 //  Copyright © 2015年  DingLixiang. All rights reserved.
 //
 
+#include "MacroDef.h"
+
+#if BOOST_MAIN
+
 /** Boost Learning Journey Start! **/
 
 #include <iostream>
@@ -26,3 +30,6 @@ int main(int argc, const char * argv[])
     
     return 0;
 }
+
+#endif
+
